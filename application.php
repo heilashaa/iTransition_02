@@ -12,6 +12,7 @@ try {
 
     $faker = \Faker\Factory::create($argv[2]);
 
+    //sheet start
     if($argv[3] < 1 && $argv[3] != 0 ){
         $count = [];
         $temp = explode('.', trim($argv[3]));
@@ -36,6 +37,7 @@ try {
             $finish = $finish + (int)$power;
         }
     }
+    //sheet finish
 
 
     for ($i = 1; $i <= $argv[1]; $i++){
