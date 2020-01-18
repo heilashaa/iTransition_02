@@ -33,5 +33,5 @@ build/
 ### PHP ###
 composer.lock
 composer.phar
-vendor/bin/
+/vendor/
 /.idea/
